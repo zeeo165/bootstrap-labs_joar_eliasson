@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+        <nav class="navbar navbar-default">
+                <div class="container">
+                  <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">
+                              Handy Man                           
+                            <span class="glyphicon glyphicon-user"></span>
+                        </a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-container" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span> 
+                        </button> 
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-collapse-container">
+                        <ul class="nav navbar-nav">
+                          <li><a href="index.html">Home</a></li>
+                            <li class="dropdown active">
+                              <a class="dropdown-toggle" data-toggle="dropdown" href="Treatments.html">Treatments
+                              <span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li class="active"><a href="Treatments.html">Treatments</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="Treatment1.html">Treatment1</a></li>
+                                <li><a href="Treatment2.html">Treatment2</a></li>
+                              </ul>
+                            </li>
+                          <li><a href="about.html">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <ol class="breadcrumb">
+                <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+                <li class="active"><a class="text-muted" href="Treatments.html">Treatments</a></li>
+                <li><a href="Treatment1.html">Treatment1</a><li>
+                <li><a href="Treatment2.html">Treatment2</a><li>
+            </ol>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 text-center">
+                    <div class="panel panel-info">
+                            <div class="panel-heading">
+                              <div class="panel-title">
+                                Treatment1
+                              </div>
+                            </div>
+                            <div class="panel-body">
+                                <img class="img-responsive" src="images/massage1.jpg" alt="First slide">
+                                <p>First Treatment</p>
+                            </div>
+                            <div class="panel-footer">
+                                <a href="Treatment1.html">
+                                    <button class="btn btn-primary">Read more</button>
+                                </a>
+                            </div> 
+                          </div>
+            </div>
+            <div class="col-md-6 text-center">
+            
+                    <div class="panel panel-info">
+                            <div class="panel-heading">
+                              <div class="panel-title">
+                                Treatment2
+                              </div>
+                            </div>
+                            <div class="panel-body">
+                                <img class="img-responsive" src="images/massage2.jpg" alt="Second slide">
+                                <p>Seacond Treatment</p>
+                            </div>
+                            <div class="panel-footer">
+                                <a href="Treatment2.html">
+                                    <button class="btn btn-primary">Read more</button>
+                                </a>
+                            </div> 
+                          </div>
+            </div>
+        </div>
+    </div>
+
+
+  </body>
+</html>

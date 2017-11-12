@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+        <nav class="navbar navbar-default">
+                <div class="container">
+                  <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">
+                              Handy Man                           
+                            <span class="glyphicon glyphicon-user"></span>
+                        </a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-container" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span> 
+                        </button> 
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-collapse-container">
+                        <ul class="nav navbar-nav">
+                          <li><a href="index.html">Home</a></li>
+                            <li class="dropdown active">
+                              <a class="dropdown-toggle" data-toggle="dropdown" href="Treatments.html">Treatments
+                              <span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="Treatments.html">Treatments</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="Treatment1.html">Treatment1</a></li>
+                                <li class="active"><a href="Treatment2.html">Treatment2</a></li>
+                              </ul>
+                            </li>
+                          <li><a href="about.html">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    </div>
+
+    <div class="container">
+            <div class="row">
+                <ol class="breadcrumb">
+                    <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+                    <li><a href="Treatments.html">Treatments</a></li>
+                    <li><a href="Treatment1.html">Treatment1</a><li>
+                    <li class="active"><a class="text-muted" href="Treatment2.html">Treatment2</a><li>
+                </ol>
+            </div>
+
+            <div class="row">
+                    <div class="col-sm-3">
+                        <img class="img-responsive" src="images/massage2.jpg" alt="Second slide">
+                    </div>
+                    <div class="col-sm-9">
+                        <p class="lead">Pellentesque ut laoreet tellus, nec consectetur justo. Nulla sollicitudin nulla non sapien suscipit, a sodales mi efficitur. Integer at erat euismod, blandit massa sagittis, tincidunt dolor. Nam malesuada rhoncus enim. Praesent commodo semper pulvinar. Morbi sapien libero, suscipit id nulla et, sagittis laoreet odio. Vivamus vitae sem aliquet, luctus lectus et, vestibulum velit. Aliquam vehicula, massa quis eleifend maximus, nulla nisl dignissim nibh, eget laoreet nibh nisl ut risus. Vivamus sed sagittis risus, sit amet aliquet nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque tellus lorem, convallis eu egestas ut, tincidunt in nisi. Sed elementum dui sem, ut tincidunt elit tincidunt ut.</p>
+                    </div>
+                </div>
+    
+                <div class="row">
+                        <form action="..." method="...">
+                                <div>
+                                    <div class="form-group">
+                                        <label for="input-1" class="control-label col-sm-2">Name</label>
+                                        <div class="col-sm-4">
+                                            <input id="input-1" type="text" class="form-control">
+                                        </div>
+                
+                                        <label for="input-1" class="control-label col-sm-2">Email</label>
+                                        <div class="col-sm-4">
+                                            <input id="input-1" type="text" class="form-control">
+                                        </div>
+                
+                                        <label for="input-1" class="control-label col-sm-2">Date</label>
+                                        <div class="col-sm-4">
+                                            <input id="input-1" type="text" class="form-control">
+                                        </div>
+                                        <label for="input-1" class="control-label col-sm-2">Message</label>
+                                        <div class=" col-sm-4">
+                                            <input id="input-1" type="text" class="form-control ">
+                                        </div>
+    
+                                        <!--<button type="submit" class="btn btn-primary">Submit form</button>--> 
+                                    </div>
+                                </div>
+                            </form>
+                        <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Submit form</button>
+    
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+    
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">submiting form</h4>
+          </div>
+          <div class="modal-body bg-warning">
+            <p class="text-uppercase text-success">are you sure you whant to submit form</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+            <button type="button" class="btn btn-success" data-dismiss="modal">Yes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+                </div>
+
+        </div>
+
+  </body>
+</html>
